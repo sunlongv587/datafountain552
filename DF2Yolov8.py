@@ -3,7 +3,7 @@ import json
 
 # source dir
 # df_dir = os.path.expanduser(r"~/Datasets/person_and_car_dataset_from_datafountain/train_dataset")
-df_dir = "/content/drive/MyDrive/dataset/train_dataset"
+df_dir = "/content/drive/MyDrive/dataset"
 file_name = "train.json"
 max_width = 1280
 max_height = 720

@@ -1,14 +1,15 @@
 import os
 import json
 
+# source dir
 df_dir = os.path.expanduser(r"~/Datasets/person_and_car_dataset_from_datafountain/train_dataset")
 file_name = "train.json"
 max_width = 1280
 max_height = 720
 label_dict = {'<UNK>': -1}
 
-# save path
-yolo_dir = os.path.expanduser(r"~/Datasets/person_and_car_dataset_from_datafountain/train_dataset/train_labels")
+# target dir
+yolo_dir = os.path.expanduser(r"~/Datasets/person_and_car_dataset_from_datafountain/train_dataset/labels")
 file_suffix = ".txt"
 
 file_stream_cache = {}

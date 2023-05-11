@@ -11,7 +11,7 @@
 path: /content/drive/MyDrive/datafountain-552/dataset  # dataset root dir
 #path: /Users/sunlong/Notes/Datasets/person_and_car_dataset_from_datafountain  # dataset root dir
 train: train_dataset/images  # train images (relative to 'path') 128 images
-val: test_images  # val images (relative to 'path') 128 images
+val: train_dataset/images  # val images (relative to 'path') 128 images
 test: test_images # test images (optional)
 
 # Classes

@@ -17,7 +17,7 @@ model = YOLO(model='./weights/best.pt')
 
 
 def image_detect():
-    test_dir = os.path.expanduser("~/Notes/Datasets/person_and_car_dataset_from_datafountain/test_images")
+    test_dir = os.path.expanduser("~/Datasets/datafountain-552/test_images")
     img_list = os.listdir(test_dir)
     for img in img_list:
         img_path = os.path.join(test_dir, img)
